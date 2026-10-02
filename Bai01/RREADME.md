@@ -26,6 +26,7 @@ Ví dụ: class, object, array, delegate.
 -> sao chép tham chiếu
    
 Câu 2: Init-only Properties (init) trong C# 9/10
+
 init là thuộc tính cho phép gán giá trị khi khởi tạo đối tượng. Sau khi đối tượng được tạo, giá trị của thuộc tính không thể thay đổi bằng cách gán lại.
 Ví dụ:
 class Student
