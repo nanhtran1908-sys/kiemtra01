@@ -53,6 +53,7 @@ Trường hợp sử dụng thực tế:
 init phù hợp với những thuộc tính cần xác định ngay khi tạo đối tượng và không muốn thay đổi sau đó, ví dụ như mã sinh viên hoặc mã sự kiện.
 
 Cau 3: Phân biệt virtual và override trong tính Đa hình (Polymorphism)
+
 virtual là từ khóa được sử dụng trong lớp cha để khai báo một phương thức có thể được lớp con thay đổi cách thực hiện.
 -> virtual: dùng ở lớp cha, cho phép lớp con ghi đè phương thức.
 override là từ khóa được sử dụng trong lớp con để ghi đè và cung cấp cách thực hiện mới cho phương thức virtual của lớp cha.
@@ -80,6 +81,7 @@ Cho keu gau gau
 Điều này thể hiện tính Đa hình, vì cùng một phương thức Sound() nhưng đối tượng Dog có cách thực hiện riêng.
 
 Câu 4: 
+
 static là thành phần thuộc về lớp (Class) chứ không thuộc về từng đối tượng (Object Instance).
 Khi khai báo một thành phần là static, thành phần đó được tạo ra một lần duy nhất và được dùng chung cho tất cả các đối tượng của lớp. Vì vậy, không cần tạo đối tượng bằng new để truy xuất thành phần static.
 Ví dụ:
